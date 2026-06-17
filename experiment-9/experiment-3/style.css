@@ -1,0 +1,22 @@
+/* Custom Gradients to match the reference image */
+
+.hero-gradient {
+    /* Soft purple-to-blue gradient */
+    background: linear-gradient(135deg, #a5b4fc 0%, #818cf8 100%);
+}
+
+.footer-gradient {
+    /* matching the footer tint in the image */
+    background: linear-gradient(to right, #93c5fd, #818cf8);
+}
+
+/* Ensure smooth transitions for buttons */
+button {
+    transition: all 0.3s ease;
+}
+
+/* Card hover effect for better UX */
+.grid > div:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}

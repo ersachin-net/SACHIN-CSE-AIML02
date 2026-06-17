@@ -1,0 +1,49 @@
+/* Header Styling */
+header {
+    background-color: #4486E4; /* Matching the blue in the image */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #222222; /* Dark grey/black background */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Main Content Styling */
+.content-section {
+    background-color: #EEEEEE; /* Light grey background */
+    padding: 80px 20px;
+    min-height: 300px;
+}
+
+/* Vertical Divider for Desktop (Medium screens and up) */
+@media (min-width: 768px) {
+    .col-divider {
+        border-left: 2px solid #333;
+        height: 100%;
+        padding-left: 30px;
+    }
+}
+
+/* Adjustment for Mobile (Remove divider, add top margin) */
+@media (max-width: 767px) {
+    .col-divider {
+        margin-top: 30px;
+        border-left: none;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
